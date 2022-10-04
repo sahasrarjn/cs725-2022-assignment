@@ -1,10 +1,10 @@
 # CS 725 (Autumn 2022): Assignment
 
-This assignment is due by **11.59 PM on October 23, 2022**.
+This assignment is due by **11.59 PM on October 26, 2022**.
 
 ## General Instructions
 Please read the following important instructions before getting started on the assignment.
-1. This assignment can be completed in groups. (Groups of size 3-5, as recommended for the final projects, are acceptable.)
+1. This assignment can be completed in groups. (Groups of size 2-5, as recommended for the final projects, will be allowed. Individual submissions will also be allowed.)
 2. This assignment is entirely programming-based. A correponding Kaggle task is also hosted [here](https://www.kaggle.com/competitions/cs725-2022-assignment-regression/overview). Please signup on Kaggle using your IITB LDAP email accounts, with Kaggle `Display Name = <your_roll_number>` . Instructions to join the Kaggle competition will be shared on Moodle.
 3. Your final submission should be a .tar.gz bundle of a directory organized exactly as described in the [Submission Instructions](#submission-instructions). Submissions that do not strictly adhere to this structure will be penalized.
 4. Successful completion of the assignment would include: (A) Submitting <your-roll-number>.tar.gz on Moodle and (B) Having your roll number appear on the Kaggle leaderboard. It is sufficient for one of your team members to make the submission and represent your team on the leaderboard. 
@@ -189,3 +189,9 @@ You can explore following techniques to get better generalization performance
   ```tar -czf <your_roll_number>.tar.gz <your_roll_number>```
   
 - Submit the `<your_roll_number>.tar.gz` file.
+ 
+ ## Resources for Python (useful for beginners and those who've seen some Python before)
+ (Reach out to the TAs if you need more resources/pointers)
+ - [Intro to Python by Brandon Rohrer](https://end-to-end-machine-learning.teachable.com/p/201-time-tools/)
+ - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
+ - [Automate the Boring Stuff with Python by Al Sweigart](https://automatetheboringstuff.com/) `For those with more time on their hands`
