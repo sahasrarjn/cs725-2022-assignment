@@ -36,7 +36,7 @@ This assignment will familiarize you with training and evaluating feedforward ne
 In Part 1, you will implement the neural network, train it using train data and report its performance on dev data.
 
 ### Part 1.A (25 Points)
-Implement the functions definitions given in [nn.py](nn.py) to create and train a neural network. Run mini-batch gradient descent on Mean Squared Error (MSE) loss function.
+Implement the functions definitions given in [nn.py](nn.py) to create and train a neural network. Run mini-batch gradient descent on Mean Squared Error (MSE) loss function. We have provided a helper file [helper.md](helper.md) to give step-by-step introduction to the [nn.py](nn.py) file
 
 For both Part 1.A and Part 1.B, use fixed settings:
 ```
@@ -123,7 +123,7 @@ You will have to work on a classification task where you will predict label amon
 
 
 ### Task
-You need to modify the `nn.py` used in the regression task to support the classification task and evaluate your network's performance on test data given in `test.csv`.
+You need to modify the [nn.py](nn.py)` used in the regression task to support the classification task and evaluate your network's performance on test data given in `test.csv`.
 
 In this task, there is no restriction on any hyper-parameter values. You are also allowed to explore various hyper-parameter tuning and cross-validation techniques.
 

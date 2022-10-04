@@ -3,6 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 
+# The seed will be fixed to 42 for this assigmnet.
 np.random.seed(42)
 
 NUM_FEATS = 90
@@ -281,11 +282,9 @@ def read_data():
 
 def main():
 
-	# These parameters should be fixed for Part 1
+	# Hyper-parameters 
 	max_epochs = 50
 	batch_size = 256
-
-
 	learning_rate = 0.001
 	num_layers = 1
 	num_units = 64
