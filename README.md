@@ -141,7 +141,7 @@ In this task, there is no restriction on any hyper-parameter values. You are als
 
 You are also free to create any wrapper functions over given functions in [nn.py](nn.py)
 
-Submit your predictions on test data on [Kaggle competition](https://www.kaggle.com/competitions/cs-725-autumn-2022-assignment-classification/overview) in a `<roll_number>.csv` file in the following format:
+Submit your predictions on test data on [Kaggle competition](https://www.kaggle.com/t/3b0b2196679d4db6bf1a89918f2f2ac3) in a `<roll_number>.csv` file in the following format:
 ```
 Id,Predictions
 1,Very Old
