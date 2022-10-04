@@ -5,7 +5,7 @@ This assignment is due by **11.59 PM on October 26, 2022**.
 ## General Instructions
 Please read the following important instructions before getting started on the assignment.
 1. This assignment can be completed in groups. (Groups of size 2-5, as recommended for the final projects, will be allowed. Individual submissions will also be allowed.)
-2. This assignment is entirely programming-based. A corresponding Kaggle task is hosted [here](https://www.kaggle.com/competitions/cs725-2022-assignment-regression/overview). Please signup on Kaggle using your IITB LDAP email accounts, with Kaggle `Display Name = <your_roll_number>`. Reach out to the TAs for more instructions on joining the Kaggle competition.
+2. This assignment is entirely programming-based. A corresponding Kaggle task is hosted [here](https://www.kaggle.com/t/13f816e813234b0bb96baf9a1bb6a137). Please signup on Kaggle using your IITB LDAP email accounts, with Kaggle `Display Name = <your_roll_number>`. Reach out to the TAs for more instructions on joining the Kaggle competition.
 3. Your final submission should be a .tar.gz bundle of a directory organized exactly as described in the [Submission Instructions](#submission-instructions). Submissions that do not strictly adhere to this structure will be penalized.
 4. Successful completion of the assignment would include: (A) Submitting <your-roll-number>.tar.gz on Moodle and (B) Having your roll number appear on the Kaggle leaderboard for the regression task. It is enough for one of your team members to make the submission and represent your team on the leaderboard. 
 
@@ -67,7 +67,7 @@ In this part, there is no restriction on any hyper-parameter values. You are als
 
 You are also free to create any wrapper functions over given functions in [nn.py](nn.py)
 
-Submit your predictions on test data on [Kaggle competition](https://www.kaggle.com/competitions/cs725-2022-assignment-regression/overview) in a `<roll_number>.csv` file in the following format:
+Submit your predictions on test data on [Kaggle competition](https://www.kaggle.com/t/13f816e813234b0bb96baf9a1bb6a137) in a `<roll_number>.csv` file in the following format:
 ```
 Id,Predictions
 1,2000
