@@ -9,7 +9,7 @@ Please read the following important instructions before getting started on the a
 3. Your final submission should be a .tar.gz bundle of a directory organized exactly as described in the [Submission Instructions](#submission-instructions). Submissions that do not strictly adhere to this structure will be penalized.
 4. Successful completion of the assignment would include: (A) Submitting <your-roll-number>.tar.gz on Moodle and (B) Having your roll number appear on the Kaggle leaderboard. It is sufficient for one of your team members to make the submission and represent your team on the leaderboard. 
 
-## Implement a Feedforward Neural Network using NumPy
+## Implement a Feedforward Neural Network using Python
 This assignment will familiarize you with training and evaluating feedforward neural networks. You will work on a regression task where you will have to predict the release year of a song from a set of timbre-based audio features extracted from the song. This consists of a year range between 1922 to 2011. (More details about this corpus are available [here](https://archive.ics.uci.edu/ml/datasets/yearpredictionmsd).) Click [here](https://www.kaggle.com/competitions/cs725-2022-assignment-regression/data) to download the training, development and test sets from Kaggle.
 
 ## Dataset Information
@@ -44,14 +44,14 @@ For both Part 1.A and Part 1.B, use fixed settings:
 - Use ReLU activation function for ALL HIDDEN layers.
 ```
 
-#### Initialization of Weights and Biases (for both Part 1 and Part 2)
-Initialize Weights and Biases using uniform distribution in the range \[-1, 1\].
+#### Initialization of weights and biases (for both Part 1 and Part 2)
+Initialize weights and biases using the uniform distribution in the range \[-1, 1\].
 
 #### What to submit in Part 1.A? 
 For Part 1.A, only code needs to be submitted in the file `nn_1.py`.
 
 ### Part 1.B (10 Points)
-Plot a graph showing the train and dev set loss after each epoch on each of the batch sizes: 32 and 64. Do it for the first 100 epochs. You can use existing libraries (for example, `matplotlib`) to create the plots. No restrictions on the remaining hyper-parameters.
+Plot a graph showing the train and dev set loss after each epoch on each of the batch sizes: 32 and 64. Do it for the first 100 epochs. You can use existing libraries (for example, `matplotlib`) to create the plots. No restrictions are imposed on the remaining hyper-parameters.
 
 #### What to submit in Part 1.B?
 Image files:
@@ -206,7 +206,7 @@ You can explore following techniques to get better generalization performance
 - Submit the `<your_roll_number>.tar.gz` file.
  
  ## Resources for Python
-This could be useful for both beginners and those with some Python background. Reach out to the TAs if you need more resources/pointers.
+This could be useful for both beginners and those with some Python background. Please reach out to the TAs if you need more resources/pointers.
  - [Intro to Python by Brandon Rohrer](https://end-to-end-machine-learning.teachable.com/p/201-time-tools/)
  - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
  - [Automate the Boring Stuff with Python by Al Sweigart](https://automatetheboringstuff.com/) `For those with more time on their hands`
