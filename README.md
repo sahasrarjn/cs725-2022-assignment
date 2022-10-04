@@ -33,7 +33,7 @@ This assignment will familiarize you with training and evaluating feedforward ne
 - `test.csv` contains same features except `label`
 
 ## Part 1
-In Part 1, you will implement the neural network, train it using train data and report its performance on dev data.
+In Part 1, you will implement the neural network, train it using the data in `train.csv` and report its performance on dev data in `dev.csv`.
 
 ### Part 1.A (25 Points)
 Implement the function definitions given in [nn.py](nn.py) to create and train a neural network. Run mini-batch gradient descent on Mean Squared Error (MSE) loss function.
@@ -47,12 +47,11 @@ For both Part 1.A and Part 1.B, use fixed settings:
 #### Initialization of Weights and Biases (for both Part 1 and Part 2)
 Initialize Weights and Biases using uniform distribution in the range \[-1, 1\].
 
-#### What to submit in Part 1.A?
+#### What to submit in Part 1.A? 
 For Part 1.A, only code needs to be submitted in the file `nn_1.py`.
 
-### Part 1.B (15 Points)
-Plot a graph showing the train and dev set loss after each epoch on each of the batch sizes: 32 and 128. Do it for the first 100 epochs. 
-If the neural network starts overfitting in the first 100 epochs, report the epoch after which the model overfits. No restrictions on rest of the hyper-parameters.
+### Part 1.B (10 Points)
+Plot a graph showing the train and dev set loss after each epoch on each of the batch sizes: 32 and 64. Do it for the first 100 epochs. You can use existing libraries (for example, `matplotlib`) to create the plots. No restrictions on the remaining hyper-parameters.
 
 #### What to submit in Part 1.B?
 Image files:
@@ -60,7 +59,6 @@ Image files:
 - `dev_32.png`: Plot for dev set loss for batch size 32
 - `train_64.png`: Plot for train set loss for batch size 64
 - `dev_64.png`: Plot for dev set loss for batch size 64
-
 
 ## Part 2 (10 points)
 In Part 2, you will evaluate your network's performance on test data given in `test.csv`.
@@ -96,10 +94,16 @@ batch_size,30
 dropout,0.10
 ```
 
+All teams who outperform or perform comparably to the TA's baseline/untuned network's performance on `test.csv` will get 5/10 points straightaway. The remaining 5 points will depend on your team's standing on the leaderboard.
 
-## Extra credit assignment
-You will have to work on a classification task where you will predict label among ("Very Old", "Old", "New" and "Recent") based on when the song was released. Click [here](https://www.kaggle.com/competitions/cs-725-autumn-2022-assignment-classification/data) to download the training, development and test sets from Kaggle. The corresponding kaggle task is hosted [here](https://www.kaggle.com/competitions/cs-725-autumn-2022-assignment-classification/overview).
-
+## Part 3 (5 points)
+Say you are asked to do some form of feature selection and create a new feature set based on the original feature set consisting of 90 features. The size of the new feature set should be strictly smaller than 90, and performance using this subset of features should ideally be no worse than what you get with using the complete feature set. Note that each feature in the new feature set could be a combination of features in the original feature set. You are free to use any technique to identify potentially useful features and create any wrapper functions over given functions in [nn.py](nn.py).
+ 
+#### What to submit in Part 3?
+Submit your code for this part in `nn_3.py` that contains the implementation for feature selection. (The starting point for this part can be the best settings you have identified for part 2.) In a CSV file (`part_3.csv`), write the name of the hyper-parameter/any new variable you've introduced and the value you set it to.
+ 
+## Extra credit assignment (10 points)
+You will have to work on a classification task where you will predict a label among ("Very Old", "Old", "New" and "Recent") based on when the song was released. Click [here](https://www.kaggle.com/competitions/cs-725-autumn-2022-assignment-classification/data) to download the training, development and test sets from Kaggle. The corresponding kaggle task is hosted [here](https://www.kaggle.com/competitions/cs-725-autumn-2022-assignment-classification/overview).
 
 ### Dataset Information
 - The dataset contains three files `train.csv`, `dev.csv`, and `test.csv`
@@ -190,7 +194,7 @@ You can explore following techniques to get better generalization performance
   
 - Submit the `<your_roll_number>.tar.gz` file.
  
- ## Resources for Python (useful for beginners and those who've seen some Python before)
+ ## Resources for Python (useful for both beginners and those with some Python background)
  (Reach out to the TAs if you need more resources/pointers)
  - [Intro to Python by Brandon Rohrer](https://end-to-end-machine-learning.teachable.com/p/201-time-tools/)
  - [Learn Python in Y Minutes](https://learnxinyminutes.com/docs/python/)
