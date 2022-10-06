@@ -111,7 +111,7 @@ TimbreCovariance10
 ```
  
 ## Extra credit assignment (10 points)
-You will have to work on a classification task where you will predict a label among ("Very Old", "Old", "New" and "Recent") based on when the song was released. Click [here](https://www.kaggle.com/competitions/cs-725-autumn-2022-assignment-classification/data) to download the training, development and test sets from Kaggle. The corresponding kaggle task is hosted [here](https://www.kaggle.com/competitions/cs-725-autumn-2022-assignment-classification/overview).
+You will have to work on a classification task where you will predict a label among ("Very Old", "Old", "New" and "Recent") based on when the song was released. Click [here](https://www.kaggle.com/t/3b0b2196679d4db6bf1a89918f2f2ac3) to download the training, development and test sets from Kaggle. The corresponding kaggle task is hosted [here](https://www.kaggle.com/t/3b0b2196679d4db6bf1a89918f2f2ac3).
 
 ### Dataset Information
 - The dataset contains three files `train.csv`, `dev.csv`, and `test.csv`
