@@ -66,7 +66,7 @@ for w, b in weights, biases:
 output = h
 return output
 ```
-Please note that this is just a pseudocode, and copy-pasting it won't work. Please undertand the logic here.
+Please note that this is just a pseudocode, and copy-pasting it won't work. Please understand the underlying logic.
 
 ## Matrix Dimensions
 Let us consider an example of data with `NUM_FEATS=3` and `batch_size=5`, 2-hidden layers and `num_units=4`.
@@ -191,8 +191,7 @@ Please refer to [this file](gradients.pdf) for a detailed explanation of above e
 `update_gradient` can be used to update the `weights[-1]` as `weights[-1] = weights - learning_rate*update_gradient`.
 
 # General Guidelines
-1. Make sure your code is vectorized, otherwise it will be very slow. Like we have computed gradients w.r.t. weights of output layer for all examples in a
-single expression, design gradients of all weight vectors in the same way.
+1. Make sure your code is vectorized, otherwise it will be very slow. Like we have computed gradients w.r.t. weights of output layer for all examples in a single expression, design gradients of all weight vectors in the same way.
 2. Do not get hung up over multiplications and divisions by constants such as 2 or m. These constants do not affect the final performance of the network.
 3. For dev, there is no need to have batches, entire dev data can be passed as a single batch.
 4. Refer to [this link](https://web.stanford.edu/class/cs224n/readings/gradient-notes.pdf) to understand more about gradient computation.
