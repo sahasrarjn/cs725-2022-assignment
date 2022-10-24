@@ -1,6 +1,6 @@
 # CS 725 (Autumn 2022): Programming Assignment
 
-This assignment is due by **11.59 PM on October 26, 2022**.
+This assignment is due by **11.59 PM on October 30, 2022**.
 
 ## General Instructions
 Please read the following important instructions before getting started on the assignment.
