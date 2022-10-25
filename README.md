@@ -135,7 +135,7 @@ You will have to work on a classification task where you will predict a label am
 
 
 ### Task
-You need to modify the [nn.py](nn.py)` used in the regression task to support the classification task and evaluate your network's performance on test data given in `test.csv`.
+You need to modify the [nn.py](nn.py) used in the regression task to support the classification task and evaluate your network's performance on test data given in `test.csv`.
 
 In this task, there is no restriction on any hyper-parameter values. You are also allowed to explore various hyper-parameter tuning and cross-validation techniques.
 
