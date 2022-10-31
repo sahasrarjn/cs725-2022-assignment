@@ -102,7 +102,7 @@ Say you are asked to do some form of feature selection and create a new feature 
 #### What to submit in Part 3?
 - Submit your code for this part in `nn_3.py` that contains the implementation for feature selection. (The starting point for this part can be the best settings you have identified for part 2.) 
 - In a CSV file (`part_3.csv`), write the name of the hyper-parameter/any new variable you've introduced and the value you set it to.
-- In another CSV file (`features.csv`) with a single column, write the features that are present in your new feature set. For example:
+- In another CSV file (`features.csv`) with a single column, write the features (from the original features) that are present in your new feature set. Remember to take care of transformation in the wrapper function itself (and total number of features < 90 altogether). For example:
 ```
 TimbreAvg2
 TimbreAvg5
